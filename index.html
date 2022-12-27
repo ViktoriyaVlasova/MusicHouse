@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <title>MusicHouse</title>
+</head>
+<body>
+    <style>
+        @font-face {
+          font-family: Pompadur;
+          src: url(fonts/Aegean.ttf); 
+        }
+        body {
+          font-family: Pompadur;
+        }
+        footer {
+            padding: 20px;
+            margin-top:20px;
+
+        }
+        .carousel-image{
+          margin: 120px;
+  
+        }
+        .prod {
+          
+          margin: 60px;
+        }
+        .lala {
+          display: flex;
+          justify-content: center;
+        }
+    </style>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="img/logo.svg" alt="" width="70"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item ">
+                    <a class="nav-link active" aria-current="page" href="index.html">О НАС</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="catalog.html">КАТАЛОГ</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="about.html">ГДЕ НАС НАЙТИ?</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="login.html">ЛИЧНЫЙ КАБИНЕТ</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          
+    </header>
+    <main>
+      <p class="h3 text-center">MusicHouse - Почувствуй музыкальное безумие</p>
+<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <h2 class="text-center">Новинки компании</h1>
+        <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+        <a href="product.html">
+        <div class="carousel-item active height-600" data-bs-interval="10000">
+        
+        <div class="d-flex justify-content-center">
+        <img class="carousel-image " src="img/2.jpeg" alt="..." height="500">
+        </div>
+        <div style="width: 300px;">
+        <div class="carousel-caption d-none d-md-block " >
+        
+                <h5 class="cap">Электрогитара</h5>
+               <p class="cap">Ibanez</p> 
+        </div>
+        </div>
+        
+        </div>
+        </a>
+        <div class="carousel-item height-600 " data-bs-interval="2000">
+        <div class="d-flex justify-content-center">
+        <img class="carousel-image " src="img/1.jpeg" alt="..." height="500">
+        </div>
+        <div class="carousel-caption d-none d-md-block ">
+                
+                        <h5 class="cap">Скрипка</h5>
+                       <p class="cap">Fender</p> 
+                
+        </div>
+        </div>
+        <div class="carousel-item height-600">
+        <div class="d-flex justify-content-center ts">
+        <img class="carousel-image " src="img/3.jpeg" alt="..." height="500">
+        </div>
+        <div class="carousel-caption d-none d-md-block ">
+                
+                        <h5 class="cap">Гитара</h5>
+                       <p class="cap">KALA</p>
+                
+        </div>
+        </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+        </button>
+        </div>
+
+     
+    </main>
+    <footer class="">
+      <p class="h6 text-center">MusicHouse</p>
+      <p class="h6 text-center">ТЕЛЕФОН</p>
+      <p class="h6 text-center">8(999) 999 99-99</p>
+      <p class="h6 text-center">ПОЧТА</p>
+      <p class="h6 text-center">MusicHouse@mail.ru</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>
